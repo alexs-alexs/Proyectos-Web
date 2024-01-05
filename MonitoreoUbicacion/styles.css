@@ -1,0 +1,33 @@
+/* Estilos para la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Evita desbordamiento de imágenes */
+    background-image: url('img/upea.png'), url('img/perros.webp');
+    background-size: 12%, 35% ;
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}

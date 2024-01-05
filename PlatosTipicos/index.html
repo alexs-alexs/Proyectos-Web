@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/bolivia.png" alt="">
+
+        <div class="slider">
+                <div class="slider_content " >
+                    <img src="img/lapaz.jpg" alt="">
+                    <h3>Plato paceño 10bs</h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/cochabamba.jpg" alt="">
+                    <h3>Silpancho  8bs</h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/santacruz.jpg" alt="">
+                    <h3>Majadito 8bs</h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/pando.jpg" alt="">
+                    <h3>Escabeche de torcaza 20bs </h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/beni.jpg" alt="">
+                    <h3>Keperi 10bs</h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/oruro.jpg" alt="">
+                    <h3>Charquekan 10bs</h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/potosi.jpg" alt="">
+                    <h3>Aji de Pataskha 10 bs</h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/sucre.jpg" alt="">
+                    <h3>Fritanga 15 bs</h3>
+                </div>
+                <div class="slider_content">
+                    <img src="img/tarija.jpg" alt="">
+                    <h3>Saice 12 bs</h3>
+                </div>
+            
+        </div>
+        
+        <p class="letra-grande">Cantidad:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total a Pagar:</p> 
+        <input type="text" class="entrada" id="precio">
+        <input type="text" class="entrada" id="Total_pagar">
+        <br>
+        <div class="controls">
+        <div class="control prev">&#60;</div>
+        <button class="color_boton" onclick="comprar_plato()">Comprar</button>
+        <button class="color_boton" onclick="LPZ(0)">LPZ</button>
+        <button class="color_boton" onclick="CBBA(1)">CBBA</button>
+        <button class="color_boton" onclick="SCZ(2)">SCZ</button>
+        <button class="color_boton" onclick="ORU(3)">ORU</button>
+        <button class="color_boton" onclick="PSI(4)">PSI</button>
+        <button class="color_boton" onclick="TJA(5)">TJA</button>
+        <button class="color_boton" onclick="BNI(6)">BNI</button>
+        <button class="color_boton" onclick="PND(7)">PND</button>
+        <button class="color_boton" onclick="CHQ(8)">CHQ</button>
+        <button class="color_boton" onclick="devolver_plato()">Devolver </button>
+        <div class="control next">&#62;</div>
+        </div>
+        <button class="color_boton boton-agrandado" onclick="abrirVentanaEmergente()">Finalizar Compra </button>
+          <div >
+    </div>   
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>
